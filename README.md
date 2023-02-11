@@ -1,5 +1,12 @@
-This contains a dashboard for spartie permissions package.
-NOTE:THIS IS A BETA VERSION!
+This contains a dashboard for spartie permissions package.</br>
+NOTE:THIS IS A BETA VERSION!</br>
+steps:</br>
+clone</br>
+artisan key:generate</br>
+fill the .env</br>
+migrate:fresh</br>
+serve.</br>
+
 ## About Laravel
 
 Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
