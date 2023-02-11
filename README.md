@@ -5,6 +5,8 @@ clone</br>
 artisan key:generate</br>
 fill the .env</br>
 migrate:fresh</br>
+npm install</br>
+mpm run dev</br>
 serve.</br>
 
 ## About Laravel
