@@ -42,7 +42,7 @@
                 </th>
                 <td class="py-4 px-6">
                     <div class="flex">
-                   <a href="{{route('users.edit',$user->id)}}" class="inline-flex items-center px-4 py-2 bg-yellow-500 border border-transparent 
+                   <a href="{{route('profile.edit')}}" class="inline-flex items-center px-4 py-2 bg-yellow-500 border border-transparent 
     rounded-md font-semibold text-xs text-white  uppercase tracking-widest hover:bg-yellow-700 active:bg-yellow-900 focus:outline-none focus:border-yellow-900 focus:ring ring-yellow-300">
                         edit
 </a>
