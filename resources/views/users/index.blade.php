@@ -42,10 +42,12 @@
                 </th>
                 <td class="py-4 px-6">
                     <div class="flex">
+                @if($user->id == $auth->id)
                    <a href="{{route('profile.edit')}}" class="inline-flex items-center px-4 py-2 bg-yellow-500 border border-transparent 
     rounded-md font-semibold text-xs text-white  uppercase tracking-widest hover:bg-yellow-700 active:bg-yellow-900 focus:outline-none focus:border-yellow-900 focus:ring ring-yellow-300">
                         edit
 </a>
+@endif
 <form method="post" class="flex" action="{{route('users.destroy',$user->id)}}">
     @csrf
     @method('delete')
