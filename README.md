@@ -1,4 +1,4 @@
-This contains a dashboard for spartie permission and laravel activity log package.
+This contains a dashboard for spartie permissions package.
 
 ## About Laravel
 
