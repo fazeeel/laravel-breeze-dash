@@ -2,6 +2,7 @@ This contains a dashboard for spartie permissions package.</br>
 NOTE:THIS IS A BETA VERSION!</br>
 steps:</br>
 clone</br>
+cp .env.example .env</br>
 artisan key:generate</br>
 fill the .env</br>
 migrate:fresh</br>
