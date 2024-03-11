@@ -3,6 +3,7 @@ NOTE:THIS IS A BETA VERSION!</br>
 steps:</br>
 clone</br>
 cp .env.example .env</br>
+composer update 
 artisan key:generate</br>
 fill the .env</br>
 migrate:fresh</br>
