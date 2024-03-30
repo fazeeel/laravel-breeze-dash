@@ -84,8 +84,9 @@ class UserController extends Controller
     public function syncrole(User $user, Request $request)
     {
         $users=User::all();
+        $auth= Auth::user();
         $user->syncRoles($request->rolestoassign);
-        return view('users.index',compact('users'));
+        return view('users.index',compact('users','auth'));
     }
     //--------
     
@@ -99,7 +100,8 @@ class UserController extends Controller
     public function syncpermission(User $user, Request $request)
     {
         $users=User::all();
+        $auth= Auth::user();
         $user->syncPermissions($request->permissiontoassign);
-        return view('users.index',compact('users'));
+        return view('users.index',compact('users','auth'));
     }
 }
